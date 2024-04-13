@@ -37,19 +37,33 @@ func main() {
 	// Exercise 4: Switch Statement
 	// Write your code here
 
-	var day string
-	fmt.Println("Give a Weekday :")
-	fmt.Scanf("%s", &day)
-	switch day {
-	case "Saturday", "Sunday","saturday", "sunday":
-		fmt.Println("Today Is Weekends")
-	default:
-		fmt.Println("Today is Working day")
-	}
+	// var day string
+	// fmt.Println("Give a Weekday :")
+	// fmt.Scanf("%s", &day)
+	// switch day {
+	// case "Saturday", "Sunday", "saturday", "sunday":
+	// 	fmt.Println("Today Is Weekends")
+	// default:
+	// 	fmt.Println("Today is Working day")
+	// }
+
+	// var test = time.Now().Weekday()
+	// switch test {
+	// case time.Saturday, time.Sunday:
+	// 	fmt.Println("Today Is Weekends")
+	// default:
+	// 	fmt.Println("Today is Working day")
+	// }
 
 	// Exercise 5: Arrays
 	// Write your code here
 
+	var arr []int
+	fmt.Println(arr)
+	arr = append(arr, 0, 1, 2, 3, 4, 5, 6)
+	fmt.Println(arr)
+
 	// Exercise 6: Slices
 	// Write your code here
+
 }
